@@ -4,6 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    std::cout << "*      *" << std::endl
+              << "**    **" << std::endl
+              << "* *  * *" << std::endl
+              << "*  **  *" << std::endl
+              << "*      *" << std::endl
+              << "*      *" << std::endl;
+    std::getchar();
+
     return 0;
 }
